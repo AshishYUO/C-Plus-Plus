@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"d5/d12/structdata__structures_1_1trie__using__hashmap_1_1_trie_1_1_node.html#a3cdb077745d3dc97212d693132371219":[9,0,1,4,0,0,1],
 "d5/d15/classcll.html":[9,0,16],
 "d5/d15/classcll.html#a04b61bb736525f28b8042c6145e1a265":[9,0,16,4],
 "d5/d15/classcll.html#a1b49e807e33b6f11b2ea151df61a9f2f":[9,0,16,8],
@@ -32,8 +33,8 @@ var NAVTREEINDEX5 =
 "d5/d3c/namespacedata__structures.html#a903639d8e6f955dd8d5c263781455d61":[8,0,12,9],
 "d5/d3c/namespacedata__structures.html#ac0d7e0be24da9f41bcb19745873c436a":[8,0,12,8],
 "d5/d4c/group__sorting.html":[7,3],
-"d5/d4c/group__sorting.html#ga0a9a57a1f1bbba3d4822531d002b7e07":[10,0,19,9,3],
 "d5/d4c/group__sorting.html#ga0a9a57a1f1bbba3d4822531d002b7e07":[7,3,7],
+"d5/d4c/group__sorting.html#ga0a9a57a1f1bbba3d4822531d002b7e07":[10,0,19,9,3],
 "d5/d4c/group__sorting.html#ga135e4c638e3bcf548bd122b5f49a3e72":[7,3,2],
 "d5/d4c/group__sorting.html#ga135e4c638e3bcf548bd122b5f49a3e72":[10,0,19,18,0],
 "d5/d4c/group__sorting.html#ga29d28b140174dbdde7c9f5157758435f":[7,3,3],
@@ -46,8 +47,8 @@ var NAVTREEINDEX5 =
 "d5/d4c/group__sorting.html#gab6b14fea48d9841e29b9fc26be6e05d7":[10,0,19,9,2],
 "d5/d4c/group__sorting.html#gabd9a93f241c5c86f2ec0abf8b66b4145":[10,0,19,6,0],
 "d5/d4c/group__sorting.html#gae66f6b31b5ad750f1fe042a706a4e3d4":[7,3,4],
-"d5/d4c/group__sorting.html#gae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,19,18,1],
 "d5/d4c/group__sorting.html#gae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,19,9,0],
+"d5/d4c/group__sorting.html#gae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,19,18,1],
 "d5/d58/persistent__seg__tree__lazy__prop_8cpp.html":[10,0,17,2],
 "d5/d58/persistent__seg__tree__lazy__prop_8cpp.html#aa8dca7b867074164d5f45b0f3851269d":[10,0,17,2,3],
 "d5/d58/persistent__seg__tree__lazy__prop_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,17,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "d6/d60/group__ode.html#ga195d23bbdfcb80e83c9cda45c9ad5723":[7,2,1],
 "d6/d60/group__ode.html#ga195d23bbdfcb80e83c9cda45c9ad5723":[10,0,13,9,2],
 "d6/d60/group__ode.html#ga36ff0710861ca39d957046c0b09b2985":[7,2,2],
-"d6/d60/group__ode.html#ga36ff0710861ca39d957046c0b09b2985":[10,0,13,10,2],
-"d6/d60/group__ode.html#ga3874d294ab00fe9ce8731c5b7991a089":[7,2,4]
+"d6/d60/group__ode.html#ga36ff0710861ca39d957046c0b09b2985":[10,0,13,10,2]
 };
