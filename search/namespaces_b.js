@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['machine_5flearning_3150',['machine_learning',['../d8/d77/namespacemachine__learning.html',1,'']]],
-  ['math_3151',['math',['../dd/d47/namespacemath.html',1,'']]],
-  ['median_5fsearch_3152',['median_search',['../da/dd4/namespacemedian__search.html',1,'']]],
-  ['merge_5finsertion_3153',['merge_insertion',['../de/d0a/namespacemerge__insertion.html',1,'']]],
-  ['mincoins_5ftopdown_3154',['mincoins_topdown',['../d5/db8/namespacemincoins__topdown.html',1,'']]],
-  ['modular_5fdivision_3155',['modular_division',['../d1/d64/namespacemodular__division.html',1,'']]],
-  ['morse_3156',['morse',['../d6/d8d/namespacemorse.html',1,'']]]
+  ['machine_5flearning_3151',['machine_learning',['../d8/d77/namespacemachine__learning.html',1,'']]],
+  ['math_3152',['math',['../dd/d47/namespacemath.html',1,'']]],
+  ['median_5fsearch_3153',['median_search',['../da/dd4/namespacemedian__search.html',1,'']]],
+  ['merge_5finsertion_3154',['merge_insertion',['../de/d0a/namespacemerge__insertion.html',1,'']]],
+  ['mincoins_5ftopdown_3155',['mincoins_topdown',['../d5/db8/namespacemincoins__topdown.html',1,'']]],
+  ['modular_5fdivision_3156',['modular_division',['../d1/d64/namespacemodular__division.html',1,'']]],
+  ['morse_3157',['morse',['../d6/d8d/namespacemorse.html',1,'']]]
 ];
