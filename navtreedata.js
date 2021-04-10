@@ -124,19 +124,19 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"cpp/iterator/distance.html",
-"cpp/thread/lock.html",
-"d1/d83/classuint256__t.html#ad5bd38b2d3becca998457af1124d6e8b",
-"d3/d7d/brute__force__string__searching_8cpp.html",
-"d5/d15/classcll.html#ae957a9434f6d1ffef7461ea4d7c9a8fe",
-"d6/d7a/golden__search__extrema_8cpp.html#a1440a7779ac56f47a3f355ce4a8c7da0",
-"d8/d69/classgraph_1_1_h_k_graph.html#af02b0c83911070ac6d95fc9905e58aa9",
-"d9/d66/group__machine__learning.html#ga5118e5cbc4f0886e27b3a7a2544dded1",
-"db/d0d/prime__factorization_8cpp.html#a0ece0145fb29a5cf48378c23dde2da46",
-"dc/db4/md__r_e_v_i_e_w_e_r__c_o_d_e.html",
-"de/dab/ncr__modulo__p_8cpp.html#af0a3e6827f41c151e47451f5ff98b1f1",
-"hierarchy.html"
+"",
+"cpp/io/c/vfwprintf.html",
+"cpp/string/wide/iswlower.html",
+"d1/d83/classuint256__t.html#a59a697fc2ee38e46506a80ddf405c188",
+"d3/d24/qr__decomposition_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe",
+"d4/def/kohonen__som__topology_8cpp.html#a2256c10b16edba377b64a44b6c656908",
+"d6/d30/classmachine__learning_1_1adaline.html#a0acbe32aaab897e7939e5b0454035b8c",
+"d8/d10/structlist.html#aaab2e33bc1ca6f44e72239bfb58f100c",
+"d9/d31/coin__change__topdown_8cpp.html#aa8dca7b867074164d5f45b0f3851269d",
+"da/dac/n__queens__all__solution__optimised_8cpp.html#a23c0547e4fd1708e6fb643b08327a60f",
+"dc/d38/ordinary__least__squares__regressor_8cpp.html#a4261f3c3c3dfdb86f3004eb8aaffea8d",
+"de/d23/disjoint__set_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",
+"globals_a.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

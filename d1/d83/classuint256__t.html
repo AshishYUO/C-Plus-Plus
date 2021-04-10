@@ -667,7 +667,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            }</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        }</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
-<div class="ttc" id="aclassuint128__t_html"><div class="ttname"><a href="../../db/d9a/classuint128__t.html">uint128_t</a></div><div class="ttdef"><b>Definition:</b> uint128_t.hpp:54</div></div>
+<div class="ttc" id="aclassuint128__t_html"><div class="ttname"><a href="../../db/d9a/classuint128__t.html">uint128_t</a></div><div class="ttdef"><b>Definition:</b> uint128_t.hpp:58</div></div>
 <div class="ttc" id="asize_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string/size.html">std::string::size</a></div><div class="ttdeci">T size(T... args)</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -708,7 +708,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <span class="keywordflow">return</span> f.<a class="code" href="../../db/d9a/classuint128__t.html#af139bb6e630f1a61919f180978611cd2">_lez</a>();</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordflow">return</span> 128 + s.<a class="code" href="../../db/d9a/classuint128__t.html#af139bb6e630f1a61919f180978611cd2">_lez</a>();</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    }</div>
-<div class="ttc" id="aclassuint128__t_html_af139bb6e630f1a61919f180978611cd2"><div class="ttname"><a href="../../db/d9a/classuint128__t.html#af139bb6e630f1a61919f180978611cd2">uint128_t::_lez</a></div><div class="ttdeci">uint32_t _lez()</div><div class="ttdoc">Leading zeroes in binary.</div><div class="ttdef"><b>Definition:</b> uint128_t.hpp:129</div></div>
+<div class="ttc" id="aclassuint128__t_html_af139bb6e630f1a61919f180978611cd2"><div class="ttname"><a href="../../db/d9a/classuint128__t.html#af139bb6e630f1a61919f180978611cd2">uint128_t::_lez</a></div><div class="ttdeci">uint32_t _lez()</div><div class="ttdoc">Leading zeroes in binary.</div><div class="ttdef"><b>Definition:</b> uint128_t.hpp:133</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -748,7 +748,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            <span class="keywordflow">return</span> s.<a class="code" href="../../db/d9a/classuint128__t.html#a7d2285a8a6e20b77f82f1f0351afe76e">_trz</a>();</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">return</span> 128 + f.<a class="code" href="../../db/d9a/classuint128__t.html#a7d2285a8a6e20b77f82f1f0351afe76e">_trz</a>();</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
-<div class="ttc" id="aclassuint128__t_html_a7d2285a8a6e20b77f82f1f0351afe76e"><div class="ttname"><a href="../../db/d9a/classuint128__t.html#a7d2285a8a6e20b77f82f1f0351afe76e">uint128_t::_trz</a></div><div class="ttdeci">uint32_t _trz()</div><div class="ttdoc">Trailing zeroes in binary.</div><div class="ttdef"><b>Definition:</b> uint128_t.hpp:140</div></div>
+<div class="ttc" id="aclassuint128__t_html_a7d2285a8a6e20b77f82f1f0351afe76e"><div class="ttname"><a href="../../db/d9a/classuint128__t.html#a7d2285a8a6e20b77f82f1f0351afe76e">uint128_t::_trz</a></div><div class="ttdeci">uint32_t _trz()</div><div class="ttdoc">Trailing zeroes in binary.</div><div class="ttdef"><b>Definition:</b> uint128_t.hpp:155</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1132,8 +1132,8 @@ template&lt;typename T , typename  = typename std::enable_if&lt;                
 <div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d1/d83/classuint256__t.html">uint256_t</a>(f * p.s + s * p.f + fi + se.<a class="code" href="../../db/d9a/classuint128__t.html#a1ee2f1ffbd9984faad34883eb45e9705">upper</a>() + th.upper() + cc,</div>
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;                         tmp + fo);</div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    }</div>
-<div class="ttc" id="aclassuint128__t_html_a1ee2f1ffbd9984faad34883eb45e9705"><div class="ttname"><a href="../../db/d9a/classuint128__t.html#a1ee2f1ffbd9984faad34883eb45e9705">uint128_t::upper</a></div><div class="ttdeci">uint64_t upper() const</div><div class="ttdoc">returns upper 64-bit integer part</div><div class="ttdef"><b>Definition:</b> uint128_t.hpp:167</div></div>
-<div class="ttc" id="aclassuint128__t_html_aa69e1064c0b0b1df1c61acd2ea04fabd"><div class="ttname"><a href="../../db/d9a/classuint128__t.html#aa69e1064c0b0b1df1c61acd2ea04fabd">uint128_t::lower</a></div><div class="ttdeci">uint64_t lower() const</div><div class="ttdoc">returns lower 64-bit integer part</div><div class="ttdef"><b>Definition:</b> uint128_t.hpp:161</div></div>
+<div class="ttc" id="aclassuint128__t_html_a1ee2f1ffbd9984faad34883eb45e9705"><div class="ttname"><a href="../../db/d9a/classuint128__t.html#a1ee2f1ffbd9984faad34883eb45e9705">uint128_t::upper</a></div><div class="ttdeci">uint64_t upper() const</div><div class="ttdoc">returns upper 64-bit integer part</div><div class="ttdef"><b>Definition:</b> uint128_t.hpp:193</div></div>
+<div class="ttc" id="aclassuint128__t_html_aa69e1064c0b0b1df1c61acd2ea04fabd"><div class="ttname"><a href="../../db/d9a/classuint128__t.html#aa69e1064c0b0b1df1c61acd2ea04fabd">uint128_t::lower</a></div><div class="ttdeci">uint64_t lower() const</div><div class="ttdoc">returns lower 64-bit integer part</div><div class="ttdef"><b>Definition:</b> uint128_t.hpp:187</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

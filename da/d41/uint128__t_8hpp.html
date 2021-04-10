@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('da/d41/uint128__t_8hpp.html','../../')
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">uint128_t.hpp File Reference</div>  </div>
@@ -238,23 +239,23 @@ template&lt;typename T , typename  = typename std::enable_if&lt;                
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>string denoting the addition of both the strings. </dd></dl>
-<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                                               {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> third;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    int16_t <a class="code" href="../../d8/d77/namespacemachine__learning.html#a5305cc18d11943d3dc0d66e70d7e9c44">sum</a> = 0, carry = 0;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = first.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/size.html">size</a>() - 1, j = second.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/size.html">size</a>() - 1; i &gt;= 0 || j &gt;= 0;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;         --i, --j) {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="../../d8/d77/namespacemachine__learning.html#a5305cc18d11943d3dc0d66e70d7e9c44">sum</a> = ((i &gt;= 0 ? first[i] - <span class="charliteral">&#39;0&#39;</span> : 0) + (j &gt;= 0 ? second[j] - <span class="charliteral">&#39;0&#39;</span> : 0) +</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;               carry);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        carry = <a class="code" href="../../d8/d77/namespacemachine__learning.html#a5305cc18d11943d3dc0d66e70d7e9c44">sum</a> / 10;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="../../d8/d77/namespacemachine__learning.html#a5305cc18d11943d3dc0d66e70d7e9c44">sum</a> %= 10;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        third.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/push_back.html">push_back</a>(<a class="code" href="../../d8/d77/namespacemachine__learning.html#a5305cc18d11943d3dc0d66e70d7e9c44">sum</a> + <span class="charliteral">&#39;0&#39;</span>);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">if</span> (carry) {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        third.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/push_back.html">push_back</a>(<span class="charliteral">&#39;1&#39;</span>);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/reverse.html">std::reverse</a>(third.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/begin.html">begin</a>(), third.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/end.html">end</a>());</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">return</span> third;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                                                               {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> third;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    int16_t <a class="code" href="../../d8/d77/namespacemachine__learning.html#a5305cc18d11943d3dc0d66e70d7e9c44">sum</a> = 0, carry = 0;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = first.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/size.html">size</a>() - 1, j = second.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/size.html">size</a>() - 1; i &gt;= 0 || j &gt;= 0;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;         --i, --j) {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="../../d8/d77/namespacemachine__learning.html#a5305cc18d11943d3dc0d66e70d7e9c44">sum</a> = ((i &gt;= 0 ? first[i] - <span class="charliteral">&#39;0&#39;</span> : 0) + (j &gt;= 0 ? second[j] - <span class="charliteral">&#39;0&#39;</span> : 0) +</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;               carry);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        carry = <a class="code" href="../../d8/d77/namespacemachine__learning.html#a5305cc18d11943d3dc0d66e70d7e9c44">sum</a> / 10;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="../../d8/d77/namespacemachine__learning.html#a5305cc18d11943d3dc0d66e70d7e9c44">sum</a> %= 10;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        third.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/push_back.html">push_back</a>(<a class="code" href="../../d8/d77/namespacemachine__learning.html#a5305cc18d11943d3dc0d66e70d7e9c44">sum</a> + <span class="charliteral">&#39;0&#39;</span>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">if</span> (carry) {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        third.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/push_back.html">push_back</a>(<span class="charliteral">&#39;1&#39;</span>);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/reverse.html">std::reverse</a>(third.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/begin.html">begin</a>(), third.<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/basic_string/end.html">end</a>());</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">return</span> third;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
 <div class="ttc" id="abasic_string_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a></div></div>
 <div class="ttc" id="abegin_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string/begin.html">std::string::begin</a></div><div class="ttdeci">T begin(T... args)</div></div>
 <div class="ttc" id="aend_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/basic_string/end.html">std::string::end</a></div><div class="ttdeci">T end(T... args)</div></div>
