@@ -4,6 +4,13 @@ var namespaces_dup =
     [ "activations", "d5/d39/namespaceactivations.html", null ],
     [ "aystar_search", "db/ddc/namespaceaystar__search.html", null ],
     [ "backtracking", "db/dc0/namespacebacktracking.html", [
+      [ "magic_sequence", null, [
+        [ "sequence_t", "d7/d37/magic__sequence_8cpp.html#adeeca4f6f79e86923194ea51c26b37d0", null ],
+        [ "filtering", "d7/d37/magic__sequence_8cpp.html#a74a6a4a80fc2387a0c9c78d5ea18ae49", null ],
+        [ "is_magic", "d7/d37/magic__sequence_8cpp.html#afb1d9a25b782af31be4fc0802c7706b8", null ],
+        [ "print", "d7/d37/magic__sequence_8cpp.html#a537c6003094821f14bd93e5cfc2c32d9", null ],
+        [ "solve", "d7/d37/magic__sequence_8cpp.html#ab65c99bf555abf67525d91ffa405d5ad", null ]
+      ] ],
       [ "n_queens", null, [
         [ "isSafe", "d4/d3e/n__queens_8cpp.html#a5730b6683f6adcf5c5ef75cf53dc7160", null ],
         [ "printSolution", "d4/d3e/n__queens_8cpp.html#a40ae0c7fd04eb20e7f3bff13fc6a5808", null ],
@@ -22,6 +29,16 @@ var namespaces_dup =
       [ "rat_maze", null, [
         [ "solveMaze", "dc/d5a/rat__maze_8cpp.html#ab99107bfb4c6934cd4691868c66c0aa3", null ]
       ] ],
+      [ "subarray_sum", null, [
+        [ "subarray_sum", "df/d94/subarray__sum_8cpp.html#af5687bbd9faf927fbd363c71e0baba5e", null ]
+      ] ],
+      [ "subset_sum", null, [
+        [ "number_of_subsets", "d2/d5a/subset__sum_8cpp.html#a7cb50d36a59427a33f64a266dac83d99", null ]
+      ] ],
+      [ "wildcard_matching", null, [
+        [ "wildcard_matching", "dc/d14/wildcard__matching_8cpp.html#a182d0f016b34e40f86be8d6df05dc9ac", null ],
+        [ "dpTable", "dc/d14/wildcard__matching_8cpp.html#a597f5c6e23f88d339c80eb83f8a6e8ff", null ]
+      ] ],
       [ "graphColoring", "db/dc0/namespacebacktracking.html#a29360ddb1bad75caa61ec895b6e71986", null ],
       [ "isPossible", "db/dc0/namespacebacktracking.html#a80af16e57cfb6aaab2bf1da4c4db3308", null ],
       [ "isSafe", "db/dc0/namespacebacktracking.html#a5a6c3c2b065ea1c07adf2f638f8efc43", null ],
@@ -38,13 +55,54 @@ var namespaces_dup =
     [ "bit_manipulation", "d7/d81/namespacebit__manipulation.html", null ],
     [ "caesar", "dd/d81/namespacecaesar.html", null ],
     [ "ciphers", "d6/d4e/namespaceciphers.html", "d6/d4e/namespaceciphers" ],
+    [ "count_of_set_bits", "dd/dae/namespacecount__of__set__bits.html", null ],
+    [ "count_of_trailing_ciphers_in_factorial_n", "dc/d2f/namespacecount__of__trailing__ciphers__in__factorial__n.html", null ],
     [ "cut_rod", "d8/d36/namespacecut__rod.html", null ],
+    [ "cycle_detection", "da/d82/namespacecycle__detection.html", null ],
     [ "cycle_sort", "d4/dfb/namespacecycle__sort.html", null ],
     [ "data_structures", "d5/d3c/namespacedata__structures.html", "d5/d3c/namespacedata__structures" ],
     [ "depth_first_search", "d8/da7/namespacedepth__first__search.html", null ],
     [ "disjoint_union", "de/db4/namespacedisjoint__union.html", null ],
+    [ "divide_and_conquer", "dd/dba/namespacedivide__and__conquer.html", null ],
+    [ "dnf_sort", "d9/d75/namespacednf__sort.html", null ],
     [ "double_hashing", "d0/d65/namespacedouble__hashing.html", "d0/d65/namespacedouble__hashing" ],
-    [ "dynamic_programming", "dd/d24/namespacedynamic__programming.html", null ],
+    [ "dynamic_programming", "dd/d24/namespacedynamic__programming.html", [
+      [ "abbreviation", null, [
+        [ "abbreviation", "d7/d73/abbreviation_8cpp.html#af53b2f647bee9c5b75ef8dd9ef685dc8", null ],
+        [ "abbreviation_recursion", "d7/d73/abbreviation_8cpp.html#a4e606aa4c764ad8d13e49eab002ec7b9", null ]
+      ] ],
+      [ "cut_rod", null, [
+        [ "maxProfitByCuttingRod", "d6/d10/cut__rod_8cpp.html#a1cc523a30c18c63eac58220c3c494cfa", null ]
+      ] ],
+      [ "house_robber", null, [
+        [ "houseRobber", "d6/d26/house__robber_8cpp.html#a1e497c3e3f169afe5baaae6a5d40cbc8", null ]
+      ] ],
+      [ "kadane", null, [
+        [ "maxSubArray", "db/dca/kadane2_8cpp.html#af3029007a422a914a85c0b0122f1c7b4", null ]
+      ] ],
+      [ "knapsack", null, [
+        [ "maxKnapsackValue", "db/d16/0__1__knapsack_8cpp.html#a15edf30f336885e5b851f6b7199c6cd1", null ]
+      ] ],
+      [ "mincoins_topdown", null, [
+        [ "mincoins", "d9/d31/coin__change__topdown_8cpp.html#ac816a4ae8a29c156b90377041000929a", null ]
+      ] ],
+      [ "minimum_edit_distance", null, [
+        [ "editDistDP", "da/d52/minimum__edit__distance_8cpp.html#ade2fcfe0359f3c7691bfaa04b14943e2", null ],
+        [ "min", "da/d52/minimum__edit__distance_8cpp.html#a0138c226bd79ffe6d839c787cfc60347", null ]
+      ] ],
+      [ "palindrome_partitioning", null, [
+        [ "pal_part", "d5/d90/palindrome__partitioning_8cpp.html#a52ee22882858d2b1cf04293f02ed839a", null ]
+      ] ],
+      [ "shortest_common_supersequence", null, [
+        [ "scs", "d7/d65/shortest__common__supersequence_8cpp.html#ad2ee8d7e67da9f6eb85146b08dad95e6", null ]
+      ] ],
+      [ "word_break", null, [
+        [ "check", "d3/d84/word__break_8cpp.html#a272b0f5cdb4e41fd6dee4538b808c06a", null ],
+        [ "exists", "d3/d84/word__break_8cpp.html#a1cc9dd6e6190d10a010fdcdfe7a21a81", null ],
+        [ "wordBreak", "d3/d84/word__break_8cpp.html#afe4dcd6fd5282e535685361cba645d7c", null ]
+      ] ],
+      [ "LIS", "dd/d24/namespacedynamic__programming.html#a0a2215194e58786c34db1ccaf8031079", null ]
+    ] ],
     [ "false_position", "df/dea/namespacefalse__position.html", null ],
     [ "fibonacci_sum", "d3/dc9/namespacefibonacci__sum.html", null ],
     [ "geometry", "d5/d5f/namespacegeometry.html", "d5/d5f/namespacegeometry" ],
@@ -53,10 +111,14 @@ var namespaces_dup =
     [ "hamming_distance", "d4/d1c/namespacehamming__distance.html", null ],
     [ "heavy_light_decomposition", "db/d6f/namespaceheavy__light__decomposition.html", null ],
     [ "horspool", "d5/d02/namespacehorspool.html", null ],
+    [ "house_robber", "d2/de1/namespacehouse__robber.html", null ],
+    [ "inorder_successor_of_bst", "dd/d74/namespaceinorder__successor__of__bst.html", null ],
     [ "inversion", "d9/d13/namespaceinversion.html", null ],
     [ "is_graph_bipartite", "de/d83/namespaceis__graph__bipartite.html", null ],
+    [ "iterative_tree_traversals", "dd/d73/namespaceiterative__tree__traversals.html", null ],
     [ "jarvis", "d5/da7/namespacejarvis.html", null ],
     [ "kadane", "d6/d74/namespacekadane.html", null ],
+    [ "karatsuba_algorithm", "de/d41/namespacekaratsuba__algorithm.html", null ],
     [ "Knapsack", "d7/daf/namespace_knapsack.html", null ],
     [ "layers", "d5/d2c/namespacelayers.html", null ],
     [ "linear_algebra", "d3/d78/namespacelinear__algebra.html", null ],
@@ -64,7 +126,16 @@ var namespaces_dup =
     [ "linear_recurrence_matrix", "d9/dd1/namespacelinear__recurrence__matrix.html", null ],
     [ "linked_list", "d3/db0/namespacelinked__list.html", null ],
     [ "list_array", "d9/d27/namespacelist__array.html", null ],
+    [ "lru_cache", "d8/dcd/namespacelru__cache.html", null ],
+    [ "lru_tests", null, [
+      [ "log", "d3/db3/lru__cache_8cpp.html#a24d21a345ed06f7fba6919718cf3e058", null ],
+      [ "run_tests", "d3/db3/lru__cache_8cpp.html#a6a3be6d8871b1f5dc03688da8f3ee9e6", null ],
+      [ "test_1", "d3/db3/lru__cache_8cpp.html#a6401e8f2d41d8cc9cd0e52ab381608d4", null ],
+      [ "test_2", "d3/db3/lru__cache_8cpp.html#a4b02e288a407876a8d6024f98a2a25ec", null ],
+      [ "test_3", "d3/db3/lru__cache_8cpp.html#a01ec21fc91ddafd964ae2035ba7892c0", null ]
+    ] ],
     [ "machine_learning", "d8/d77/namespacemachine__learning.html", "d8/d77/namespacemachine__learning" ],
+    [ "magic_sequence", "d8/d93/namespacemagic__sequence.html", null ],
     [ "math", "dd/d47/namespacemath.html", "dd/d47/namespacemath" ],
     [ "median_search", "da/dd4/namespacemedian__search.html", null ],
     [ "merge_insertion", "de/d0a/namespacemerge__insertion.html", null ],
@@ -72,6 +143,7 @@ var namespaces_dup =
     [ "Minimum", "d4/d12/namespace_minimum.html", null ],
     [ "modular_division", "d1/d64/namespacemodular__division.html", null ],
     [ "morse", "d6/d8d/namespacemorse.html", null ],
+    [ "n_bonacci", "de/d36/namespacen__bonacci.html", null ],
     [ "n_queens", "d3/da1/namespacen__queens.html", null ],
     [ "n_queens_all_solutions", "df/d44/namespacen__queens__all__solutions.html", null ],
     [ "n_queens_optimized", "d8/d14/namespacen__queens__optimized.html", null ],
@@ -95,15 +167,19 @@ var namespaces_dup =
     [ "quadratic_probing", "d4/dd2/namespacequadratic__probing.html", "d4/dd2/namespacequadratic__probing" ],
     [ "queue_using_array", "d9/d70/namespacequeue__using__array.html", null ],
     [ "radix_sort", "da/dda/namespaceradix__sort.html", null ],
+    [ "random_pivot_quick_sort", "de/d6b/namespacerandom__pivot__quick__sort.html", null ],
     [ "range_queries", "dd/d69/namespacerange__queries.html", "dd/d69/namespacerange__queries" ],
     [ "rat_maze", "d9/d60/namespacerat__maze.html", null ],
     [ "runge_kutta", "d2/de7/namespacerunge__kutta.html", null ],
     [ "saddleback", "d0/dda/namespacesaddleback.html", null ],
-    [ "search", "d9/dca/namespacesearch.html", null ],
+    [ "search", "d9/dca/namespacesearch.html", "d9/dca/namespacesearch" ],
     [ "shortest_common_supersequence", "d3/deb/namespaceshortest__common__supersequence.html", null ],
     [ "sorting", "d5/d91/namespacesorting.html", [
       [ "cycle_sort", null, [
         [ "cycleSort", "de/d07/cycle__sort_8cpp.html#ad0cfe2e54b1d3f9d0ca648265d917c6a", null ]
+      ] ],
+      [ "dnf_sort", null, [
+        [ "dnfSort", "d6/d1a/dnf__sort_8cpp.html#a60688fc307dbb4b71969dfc191e1e67b", null ]
       ] ],
       [ "inversion", null, [
         [ "countInversion", "d2/d26/count__inversions_8cpp.html#a3332498eabf6579ef059c0d0e9f4ec80", null ],
@@ -124,8 +200,18 @@ var namespaces_dup =
         [ "radix", "d8/d61/radix__sort2_8cpp.html#a8df9406972cda58c209b30ebae295daa", null ],
         [ "step_ith", "d8/d61/radix__sort2_8cpp.html#a302672a25ef4561eb41b4f9ef8e518b2", null ]
       ] ],
+      [ "random_pivot_quick_sort", null, [
+        [ "generateUnsortedArray", "d1/daa/random__pivot__quick__sort_8cpp.html#ad29ec5b3d242892675ba76acad5300a3", null ],
+        [ "getRandomIndex", "d1/daa/random__pivot__quick__sort_8cpp.html#aac5657b4fe2251cd21073f44233f6ea5", null ],
+        [ "partition", "d1/daa/random__pivot__quick__sort_8cpp.html#a80fcb0b18a1ff5588bb00c0ff3b7fb49", null ],
+        [ "quickSortRP", "d1/daa/random__pivot__quick__sort_8cpp.html#a5c8eb5c4cb149b2f6c92582169532e92", null ],
+        [ "showArray", "d1/daa/random__pivot__quick__sort_8cpp.html#ac3281dc34a9cfd7beb332419b8a0aa10", null ]
+      ] ],
       [ "strand", null, [
         [ "strand_sort", "dc/dd9/strand__sort_8cpp.html#ad75dc6a599ecfe31dadfaf449ee565f6", null ]
+      ] ],
+      [ "wave_sort", null, [
+        [ "waveSort", "db/d3f/wave__sort_8cpp.html#aa3e61ec7fbcf7f9b52de306e6dd6a41c", null ]
       ] ],
       [ "wiggle_sort", null, [
         [ "wiggleSort", "d1/dcc/wiggle__sort_8cpp.html#a52955ecf8669ff6c5b9b1e66bd7db41d", null ]
@@ -168,13 +254,18 @@ var namespaces_dup =
       [ "recalculate_hash", "d9/d03/namespacestring__search.html#aed769d565b705a9b3e0eb1ec74088893", null ]
     ] ],
     [ "strings", "df/dcb/namespacestrings.html", null ],
+    [ "subarray_sum", "df/d74/namespacesubarray__sum.html", null ],
+    [ "sublist_search", "d9/def/namespacesublist__search.html", null ],
+    [ "Subsets", "de/d95/namespace_subsets.html", null ],
     [ "tree_234", "d6/dab/namespacetree__234.html", null ],
     [ "trie_operations", "df/d8e/namespacetrie__operations.html", null ],
     [ "trie_using_hashmap", "d7/d0a/namespacetrie__using__hashmap.html", null ],
     [ "util_functions", "d3/d17/namespaceutil__functions.html", null ],
     [ "vector_cross", "d4/d91/namespacevector__cross.html", null ],
     [ "vigenere", "d6/da2/namespacevigenere.html", null ],
+    [ "wave_sort", "d9/d21/namespacewave__sort.html", null ],
     [ "wiggle_sort", "d0/d52/namespacewiggle__sort.html", null ],
+    [ "wildcard_matching", "db/d03/namespacewildcard__matching.html", null ],
     [ "word_break", "d6/d53/namespaceword__break.html", null ],
     [ "XOR", "d7/d47/namespace_x_o_r.html", null ]
 ];
