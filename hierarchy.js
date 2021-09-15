@@ -52,7 +52,6 @@ var hierarchy =
     [ "others::iterative_tree_traversals::Node", "d2/d9a/structothers_1_1iterative__tree__traversals_1_1_node.html", null ],
     [ "range_queries::perSegTree::Node", "d5/d66/classrange__queries_1_1per_seg_tree_1_1_node.html", null ],
     [ "search::sublist_search::Node", "da/d61/structsearch_1_1sublist__search_1_1_node.html", null ],
-    [ "node< Type >", "d5/da1/structnode.html", null ],
     [ "range_queries::perSegTree", "d8/d28/classrange__queries_1_1per_seg_tree.html", null ],
     [ "ciphers::elliptic_curve_key_exchange::Point", "d6/d45/structciphers_1_1elliptic__curve__key__exchange_1_1_point.html", null ],
     [ "geometry::jarvis::Point", "d9/d5a/structgeometry_1_1jarvis_1_1_point.html", null ],
