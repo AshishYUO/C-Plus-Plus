@@ -1,7 +1,0 @@
-<map id="Matrix::v_stack" name="Matrix::v_stack">
-<area shape="rect" id="node1" title="Horizontally stack the matrix (current matrix above the other)" alt="" coords="5,80,117,105"/>
-<area shape="rect" id="node2" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/back.html#" title=" " alt="" coords="193,5,313,31"/>
-<area shape="rect" id="node3" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/emplace_back.html#" title=" " alt="" coords="165,55,341,80"/>
-<area shape="rect" id="node4" href="$d6/d3f/class_matrix.html#a3d165bb04923819cbd625a319125fc3e" title="Get the matrix shape." alt="" coords="208,104,299,129"/>
-<area shape="rect" id="node5" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/size.html#" title=" " alt="" coords="389,129,505,155"/>
-</map>

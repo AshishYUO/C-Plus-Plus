@@ -143,13 +143,13 @@ var NAVTREEINDEX =
 "d3/d80/z__function_8cpp.html",
 "d4/de6/namespacepostfix__expression.html",
 "d6/d26/classciphers_1_1_hill_cipher.html#ad36cbcc7a458b3f3a2af0c4aa1126590",
-"d7/d73/abbreviation_8cpp.html#af53b2f647bee9c5b75ef8dd9ef685dc8",
-"d8/d9c/union__of__two__arrays_8cpp.html#a6109193567a5b7e36a27f2b4865fce20",
-"d9/df4/namespacetests.html#abdd77344d4af8fd56d14a5cabbf2f669",
-"db/d71/quadratic__probing__hash__table_8cpp.html#aeb6bca8db4768226f8ea8291ea4f83f6",
-"dc/dfb/atbash__cipher_8cpp.html",
-"de/d72/geometric__dist_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",
-"functions_f.html"
+"d7/d7c/classstatistics_1_1stats__computer1.html#a350bf6c429691d3578c4dfc6679a0797",
+"d8/dab/classstatistics_1_1stats__computer2.html#ade6de704deea24fdc88077b3d9a0d534",
+"da/d16/structoperations__on__datastructures_1_1circular__linked__list_1_1_node.html#a12a06eef5ccaf667f319506eee655d95",
+"db/d82/classlarge__number.html#ac09a05ec4aafb4d9e0b4440d6f0e2a93",
+"dd/d0c/hamiltons__cycle_8cpp.html#ae7880ce913f3058a35ff106d5be9e243",
+"de/d85/decimal__to__roman__numeral_8cpp.html#a214743638eff1336f835310049aef979",
+"functions_func_q.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
