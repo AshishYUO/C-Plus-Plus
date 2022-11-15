@@ -1,0 +1,12 @@
+<map id="Matrix::strassens_multiplication" name="Matrix::strassens_multiplication">
+<area shape="rect" id="node1" title="Strassens method of multiplying two matrices References: https://en.wikipedia.org/wiki/Strassen_algor..." alt="" coords="5,168,212,194"/>
+<area shape="rect" id="node2" href="$d6/d3f/class_matrix.html#aed4e68ffbb843736404256bc4c104d99" title="Horizontally stack the matrix (one after the other)" alt="" coords="294,42,406,67"/>
+<area shape="rect" id="node4" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/size.html#" title=" " alt="" coords="712,168,828,194"/>
+<area shape="rect" id="node5" href="$d6/d3f/class_matrix.html#a4a54c2a18d3e42f9d846b7bb48fcfbc9" title="Naive multiplication performed on this." alt="" coords="260,143,440,168"/>
+<area shape="rect" id="node6" href="$d6/d3f/class_matrix.html#a3d165bb04923819cbd625a319125fc3e" title="Get the matrix shape." alt="" coords="531,244,621,270"/>
+<area shape="rect" id="node7" href="$d6/d3f/class_matrix.html#a66a60698098f8e2ca12feb2af98601dc" title="Creates a new matrix and returns a part of it." alt="" coords="303,194,397,219"/>
+<area shape="rect" id="node8" href="$d6/d3f/class_matrix.html#a49654b84239343c71d8f8b094ba0c07c" title="Horizontally stack the matrix (current matrix above the other)" alt="" coords="294,295,406,320"/>
+<area shape="rect" id="node3" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/push_back.html#" title=" " alt="" coords="499,42,653,67"/>
+<area shape="rect" id="node9" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/back.html#" title=" " alt="" coords="516,346,636,371"/>
+<area shape="rect" id="node10" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/emplace_back.html#" title=" " alt="" coords="488,395,664,420"/>
+</map>
